@@ -78,11 +78,10 @@ public class Main {
 Для объявления переменных не используйте тип var.
          */
         System.out.println("Задача 4");
-        byte perMinute = 16/2;
-        int for20Min = perMinute * 20;
-        int perDay = for20Min * 3 * 24;
-        int for3Days = perDay * 3;
-        int perMonth = for3Days * 10;
+        int for20Min = 16/2 * 20;
+        int perDay = 16/2 * 20 * 3 * 24;
+        int for3Days = 16/2 * 20 * 3 * 24 * 3;
+        int perMonth = 16/2 * 20 * 3 * 24 * 3 * 10;
         System.out.println("За 20 минут машина произвела " + for20Min + " штук бутылок");
         System.out.println("За сутки машина произвела " + perDay + " штук бутылок");
         System.out.println("За 3 дня машина произвела " + for3Days + " штук бутылок");
@@ -171,9 +170,9 @@ public class Main {
         int diffMasha = (int)(newMashaZp - mashaZp) * 12;
         int diffDenis = (int)(newDenisZp - denisZp) * 12;
         int diffKris = (int)(newKrisZp - krisZp) * 12;
-        System.out.println("Маша теперь получает " + newMashaZp + " рублей. Годовой доход вырос на " + diffMasha + " рублей");
-        System.out.println("Денис теперь получает " + newDenisZp + " рублей. Годовой доход вырос на " + diffDenis + " рублей");
-        System.out.println("Кристина теперь получает " + newKrisZp + " рублей. Годовой доход вырос на " + diffKris + " рублей");
+        System.out.println("Маша теперь получает " + (int) newMashaZp + " рублей. Годовой доход вырос на " + diffMasha + " рублей");
+        System.out.println("Денис теперь получает " + (int) newDenisZp + " рублей. Годовой доход вырос на " + diffDenis + " рублей");
+        System.out.println("Кристина теперь получает " + (int) newKrisZp + " рублей. Годовой доход вырос на " + diffKris + " рублей");
 
 
 
